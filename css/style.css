@@ -7,8 +7,8 @@ section {
   display: flex;
   padding: 5%;
 }
-.top {
-  background-image: url("images/top.png");
+.top-banner {
+  background-image: url("../img/top.png");
   background-repeat: no-repeat;
 }
 
@@ -36,4 +36,9 @@ section {
   color: white;
   border-radius: 5px;
   background: linear-gradient(45deg, lightsalmon, tomato);
+}
+.second-banner {
+  background-image: url(../img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
